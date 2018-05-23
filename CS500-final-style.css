@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0px;
+}
+
+#header{
+  width: 100%;
+  margin: 0;
+  background-color: rgb(250,250,250);
+  color: rgb(60,60,60);
+
+}
+
+#headpic{
+  text-align: left;
+  padding: 0px 0px;
+}
+
+#headpic{
+  text-align: right;
+  padding: 0px 0px;
+}
+
+.header{
+  position: absolute;
+  top: 230px;
+  left: 350px;
+  font-size: 70px;
+}
