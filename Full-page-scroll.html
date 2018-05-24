@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+    <title>Full Page Scroll</title>
+    <link rel= "stylesheet" type="text/css" href="full-page-scroll-style.css" />
+    <link rel= "stylesheet" type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>
+    <link rel="stylesheet" href="jquery.fullpage.css"/>
+  </head>
+  <body>
+    <div id="fullpage">
+      <section><h1>Section 1</h1></section>
+      <section><h1>Section 2</h1></section>
+      <section><h1>Section 3</h1></section>
+      <section><h1>Section 4</h1></section>
+      <section><h1>Section 5</h1></section>
+    </div>
+    <script type="text/javascript">
+    $(document).ready(function){
+      $('#fullpage').fullpage();
+    }
+    </script>
+  </body>
+</html>
