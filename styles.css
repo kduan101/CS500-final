@@ -2,14 +2,13 @@
   margin: 0;
   padding: 0px;
   font-family: Arial, sans-serif;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 #content{
   background-color: rgb(250,250,250);
   min-height: 50vh;
   line-height: 30px;
-
 }
 
 #header{
@@ -51,6 +50,7 @@
   width: 65%;
   margin: 0 auto;
   padding-top:70px;
+  font-size: 20px;
 }
 
 .click {
@@ -60,7 +60,7 @@
     background-color: rgb(60,60,60);
     margin: 0 auto;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 13px;
     margin-top: 2em;
     -webkit-transition: background-color 0.3s; /* Safari */
     transition: background-color 0.3s;
@@ -76,4 +76,280 @@
 #go{
   text-decoration: none;
   color: rgb(255,255,255);
+  font-size: 20px;
+}
+
+#subtitle{
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  font-size: 35px;
+  color: rgb(60,60,60);
+
+}
+
+#colorpage-headpic{
+  position: absolute;
+  left: 30%;
+  top: 0%;
+  width: 70%;
+  height: 100%;
+  padding: 0px 0px;
+}
+
+.header1{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 70px;
+  color: rgb(60,60,60);
+}
+
+#red{
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding: 0px;
+}
+#red-pic{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+#red-header{
+  width: 100%;
+  padding-left: 15%;
+  padding-top: 15%;
+  color: rgb(255,255,255);
+  font-size: 50px;
+}
+#red-text{
+  color:rgb(255,255,255);
+  width: 60%;
+  margin: 0 auto;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+#orange{
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding: 0px;
+}
+#orange-pic{
+  position: absolute;
+  right:0%;
+  height: 100%;
+  width: 30%;
+}
+#orange-header{
+  width: 100%;
+  padding-left: 10%;
+  padding-top: 15%;
+  color: rgb(60,60,60);
+  font-size: 50px;
+}
+#orange-text{
+  width: 50%;
+  padding-top: 5%;
+  padding-left: 10%;
+  color: rgb(60,60,60);
+}
+
+#yellow{
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding: 0px;
+}
+#yellow-pic{
+  position: absolute;
+  right:0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+#yellow-header{
+  width: 100%;
+  text-align: left;
+  padding-left: 55%;
+  padding-top: 10%;
+  color: rgb(60,60,60);
+  font-size: 50px;
+}
+#yellow-text{
+  width: 100%;
+  text-align: left;
+  padding-top: 5%;
+  padding-left: 10%;
+  width: 60%;
+  color: rgb(60,60,60);
+}
+
+#green{
+  width: 100vh;
+  height: 100vh;
+  margin:0;
+  padding: 0px;
+}
+#green-pic{
+  position: absolute;
+  right:0vh;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+#green-header{
+  width: 100%;
+  padding-left: 25%;
+  padding-top: 25%;
+  color: rgb(255,255,255);
+  font-size: 50px;
+}
+#green-text{
+  width: 70%;
+  text-align: left;
+  padding-top: 10%;
+  padding-left: 30%;
+  color: rgb(255,255,255);
+}
+
+#blue{
+  width: 100vh;
+  height: 100vh;
+  margin:0;
+  padding: 0px;
+}
+#blue-pic{
+  position: absolute;
+  right:0vh;
+  height: 100%;
+  width: 50%;
+  z-index: -1;
+  opacity: 0.9;
+}
+#blue-header{
+  width: 100%;
+  padding-left: 25%;
+  padding-top: 25%;
+  color: rgb(60,60,60);
+  font-size: 50px;
+}
+#blue-text{
+  width: 100%;
+  text-align: left;
+  padding-top: 10%;
+  padding-left: 25%;
+  color: rgb(50,50,50);
+}
+
+#purple{
+  width: 100vh;
+  height: 100vh;
+  margin:0;
+  padding: 0px;
+}
+#purple-pic{
+  position: absolute;
+  right:0vh;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+#purple-header{
+  width: 100%;
+  padding-left: 25%;
+  padding-top: 25%;
+  color: rgb(255,255,255);
+  font-size: 50px;
+}
+#purple-text{
+  width: 100%;
+  text-align: left;
+  padding-top: 10%;
+  padding-left: 20%;
+  color: rgb(255,255,255);
+}
+
+.column{
+  display: inline-block;
+  width:48%;
+  height: 100vh;
+  vertical-align: top;
+  column-gap: 0px;
+}
+#black{
+  left: 0vh;
+}
+#black-header{
+  width: 90%;
+  height: 20vh;
+  left: 0;
+  top: 0;
+  padding-left: 10%;
+  padding-top: 10vh;
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+}
+#black-text{
+  width: 90%;
+  height: 70vh;
+  top: 10vh;
+  padding-left: 10%;
+  text-align: left;
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+}
+#white{
+  left: 50vh;
+}
+#white-header{
+  width: 90%;
+  height: 20vh;
+  top: 0;
+  text-align: right;
+  padding-top: 10vh;
+  padding-right: 10%;
+  background-color: rgb(255,255, 255);
+  color: rgb(0,0,0);
+}
+#white-text{
+  width: 90%;
+  height: 70vh;
+  text-align: right;
+  padding-right: 10%;
+  background-color: rgb(255,255,255);
+  color: rgb(0,0,0);
+}
+
+#end{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255,255,255);
+  color: rgb(60,60,60);
+}
+#end-pic{
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 60%;
+  height: 100%;
+  padding: 0px 0px;
+}
+
+#end-header{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-size: 70px;
+}
+
+#end-subtitle{
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  font-size: 50px;
+
 }
