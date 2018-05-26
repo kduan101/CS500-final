@@ -23,8 +23,8 @@
 
 #headpic{
   position: absolute;
-  left: 0%;
-  top: 0%;
+  left: 0vh;
+  top: 0vh;
   width: 55%;
   height: 60%;
   padding: 0px 0px;
@@ -35,7 +35,7 @@
   width: 30%;
   height: 60%;
   left: 70%;
-  top: 0%;
+  top: 0vh;
   padding: 0px 0px;
 }
 
