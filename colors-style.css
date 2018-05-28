@@ -10,6 +10,7 @@
   height: 100vh;
   margin:0;
   padding: 0px;
+  color: rgb(60,60,60);
 }
 #subtitle{
   position: absolute;
@@ -257,31 +258,29 @@
 #end{
   width: 100vw;
   height: 100vh;
-  background-color: rgb(255,255,255);
-  color: rgb(60,60,60);
 }
 #end-pic{
   position: absolute;
-  left: 0%;
-  top: 0%;
+  left: 0vh;
+  top: 0vh;
   width: 60%;
   height: 100%;
   padding: 0px 0px;
+  z-index: -1;
 }
 
 #end-header{
-  position: absolute;
-  top: 30%;
-  left: 40%;
+  padding-top: 30vh;
+  padding-left: 27vw;
   font-size: 70px;
+  color: rgb(60,60,60);
 }
 
 #end-subtitle{
-  position: absolute;
-  top: 55%;
-  left: 60%;
+  padding-top: 15vh;
+  padding-left: 45vw;
   font-size: 50px;
-
+  color: rgb(60,60,60);
 }
 
 /*!
