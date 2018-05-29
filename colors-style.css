@@ -263,8 +263,8 @@
 }
 #end-pic{
   position: absolute;
-  left: 0;
-  top: 0;
+  /* left: 0;
+  top: 0; */
   width: 60%;
   height: 100%;
   padding: 0px 0px;
